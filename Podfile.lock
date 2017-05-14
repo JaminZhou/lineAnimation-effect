@@ -1,0 +1,15 @@
+PODS:
+  - hpple (0.2.0)
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - hpple
+  - pop
+
+SPEC CHECKSUMS:
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: a290a0f8de963e24320bc3ae39696eb4036d3af1
+
+COCOAPODS: 1.2.0

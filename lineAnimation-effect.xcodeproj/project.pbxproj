@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5EEE64CE6BB0F728C969A8 /* Pods_lineAnimation_effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A0EB22B6D87EE5A49F3705 /* Pods_lineAnimation_effect.framework */; };
+		EDB3E54A1EC830880032B661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB3E5491EC830880032B661 /* AppDelegate.swift */; };
+		EDB3E54C1EC830880032B661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB3E54B1EC830880032B661 /* ViewController.swift */; };
+		EDB3E54F1EC830880032B661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E54D1EC830880032B661 /* Main.storyboard */; };
+		EDB3E5511EC830880032B661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5501EC830880032B661 /* Assets.xcassets */; };
+		EDB3E5541EC830880032B661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5521EC830880032B661 /* LaunchScreen.storyboard */; };
+		EDB3E5681EC831570032B661 /* 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E55C1EC831570032B661 /* 1.svg */; };
+		EDB3E5691EC831570032B661 /* 2.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E55D1EC831570032B661 /* 2.svg */; };
+		EDB3E56A1EC831570032B661 /* 3.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E55E1EC831570032B661 /* 3.svg */; };
+		EDB3E56B1EC831570032B661 /* 4.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E55F1EC831570032B661 /* 4.svg */; };
+		EDB3E56C1EC831570032B661 /* 5.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5601EC831570032B661 /* 5.svg */; };
+		EDB3E56D1EC831570032B661 /* 6.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5611EC831570032B661 /* 6.svg */; };
+		EDB3E56E1EC831570032B661 /* 7.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5621EC831570032B661 /* 7.svg */; };
+		EDB3E56F1EC831570032B661 /* 8.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5631EC831570032B661 /* 8.svg */; };
+		EDB3E5701EC831570032B661 /* 9.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5641EC831570032B661 /* 9.svg */; };
+		EDB3E5711EC831570032B661 /* ball.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5651EC831570032B661 /* ball.svg */; };
+		EDB3E5721EC831570032B661 /* beijing2.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5661EC831570032B661 /* beijing2.svg */; };
+		EDB3E5731EC831570032B661 /* hangzhou2.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDB3E5671EC831570032B661 /* hangzhou2.svg */; };
+		EDB3E5751EC831BF0032B661 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB3E5741EC831BF0032B661 /* EffectView.swift */; };
+		EDB3E5791EC838750032B661 /* SVGParse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB3E5781EC838750032B661 /* SVGParse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07060F0D44D3E7B1164F562B /* Pods-lineAnimation-effect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lineAnimation-effect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lineAnimation-effect/Pods-lineAnimation-effect.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7A3DE772F1EC69123C3300 /* Pods-lineAnimation-effect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lineAnimation-effect.release.xcconfig"; path = "Pods/Target Support Files/Pods-lineAnimation-effect/Pods-lineAnimation-effect.release.xcconfig"; sourceTree = "<group>"; };
+		A8A0EB22B6D87EE5A49F3705 /* Pods_lineAnimation_effect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lineAnimation_effect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB3E5461EC830880032B661 /* lineAnimation-effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lineAnimation-effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB3E5491EC830880032B661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDB3E54B1EC830880032B661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDB3E54E1EC830880032B661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB3E5501EC830880032B661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB3E5531EC830880032B661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB3E5551EC830880032B661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB3E55C1EC831570032B661 /* 1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1.svg; sourceTree = "<group>"; };
+		EDB3E55D1EC831570032B661 /* 2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 2.svg; sourceTree = "<group>"; };
+		EDB3E55E1EC831570032B661 /* 3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3.svg; sourceTree = "<group>"; };
+		EDB3E55F1EC831570032B661 /* 4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 4.svg; sourceTree = "<group>"; };
+		EDB3E5601EC831570032B661 /* 5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 5.svg; sourceTree = "<group>"; };
+		EDB3E5611EC831570032B661 /* 6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 6.svg; sourceTree = "<group>"; };
+		EDB3E5621EC831570032B661 /* 7.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 7.svg; sourceTree = "<group>"; };
+		EDB3E5631EC831570032B661 /* 8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 8.svg; sourceTree = "<group>"; };
+		EDB3E5641EC831570032B661 /* 9.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 9.svg; sourceTree = "<group>"; };
+		EDB3E5651EC831570032B661 /* ball.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ball.svg; sourceTree = "<group>"; };
+		EDB3E5661EC831570032B661 /* beijing2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = beijing2.svg; sourceTree = "<group>"; };
+		EDB3E5671EC831570032B661 /* hangzhou2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hangzhou2.svg; sourceTree = "<group>"; };
+		EDB3E5741EC831BF0032B661 /* EffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
+		EDB3E5761EC838740032B661 /* lineAnimation-effect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lineAnimation-effect-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDB3E5771EC838750032B661 /* SVGParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGParse.h; sourceTree = "<group>"; };
+		EDB3E5781EC838750032B661 /* SVGParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGParse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB3E5431EC830880032B661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5EEE64CE6BB0F728C969A8 /* Pods_lineAnimation_effect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		977F9C02346CB6CD49049AB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07060F0D44D3E7B1164F562B /* Pods-lineAnimation-effect.debug.xcconfig */,
+				6D7A3DE772F1EC69123C3300 /* Pods-lineAnimation-effect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDAF390E85EF70F5FF4AA3B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8A0EB22B6D87EE5A49F3705 /* Pods_lineAnimation_effect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB3E53D1EC830880032B661 = {
+			isa = PBXGroup;
+			children = (
+				EDB3E5481EC830880032B661 /* lineAnimation-effect */,
+				EDB3E5471EC830880032B661 /* Products */,
+				977F9C02346CB6CD49049AB0 /* Pods */,
+				EDAF390E85EF70F5FF4AA3B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB3E5471EC830880032B661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB3E5461EC830880032B661 /* lineAnimation-effect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB3E5481EC830880032B661 /* lineAnimation-effect */ = {
+			isa = PBXGroup;
+			children = (
+				EDB3E5491EC830880032B661 /* AppDelegate.swift */,
+				EDB3E54B1EC830880032B661 /* ViewController.swift */,
+				EDB3E5741EC831BF0032B661 /* EffectView.swift */,
+				EDB3E54D1EC830880032B661 /* Main.storyboard */,
+				EDB3E5501EC830880032B661 /* Assets.xcassets */,
+				EDB3E5521EC830880032B661 /* LaunchScreen.storyboard */,
+				EDB3E5551EC830880032B661 /* Info.plist */,
+				EDB3E55B1EC831470032B661 /* SVG */,
+				EDB3E5761EC838740032B661 /* lineAnimation-effect-Bridging-Header.h */,
+			);
+			path = "lineAnimation-effect";
+			sourceTree = "<group>";
+		};
+		EDB3E55B1EC831470032B661 /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				EDB3E5771EC838750032B661 /* SVGParse.h */,
+				EDB3E5781EC838750032B661 /* SVGParse.m */,
+				EDB3E55C1EC831570032B661 /* 1.svg */,
+				EDB3E55D1EC831570032B661 /* 2.svg */,
+				EDB3E55E1EC831570032B661 /* 3.svg */,
+				EDB3E55F1EC831570032B661 /* 4.svg */,
+				EDB3E5601EC831570032B661 /* 5.svg */,
+				EDB3E5611EC831570032B661 /* 6.svg */,
+				EDB3E5621EC831570032B661 /* 7.svg */,
+				EDB3E5631EC831570032B661 /* 8.svg */,
+				EDB3E5641EC831570032B661 /* 9.svg */,
+				EDB3E5651EC831570032B661 /* ball.svg */,
+				EDB3E5661EC831570032B661 /* beijing2.svg */,
+				EDB3E5671EC831570032B661 /* hangzhou2.svg */,
+			);
+			name = SVG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB3E5451EC830880032B661 /* lineAnimation-effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB3E5581EC830880032B661 /* Build configuration list for PBXNativeTarget "lineAnimation-effect" */;
+			buildPhases = (
+				09C2C82A34233B82B3441478 /* [CP] Check Pods Manifest.lock */,
+				EDB3E5421EC830880032B661 /* Sources */,
+				EDB3E5431EC830880032B661 /* Frameworks */,
+				EDB3E5441EC830880032B661 /* Resources */,
+				AC4B64F2A038123A14B0E81E /* [CP] Embed Pods Frameworks */,
+				5AB6DF377D828F2D73F0BBD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lineAnimation-effect";
+			productName = "lineAnimation-effect";
+			productReference = EDB3E5461EC830880032B661 /* lineAnimation-effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB3E53E1EC830880032B661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hangzhou Tomorning Technology Co., Ltd.";
+				TargetAttributes = {
+					EDB3E5451EC830880032B661 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RVRG597GCP;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDB3E5411EC830880032B661 /* Build configuration list for PBXProject "lineAnimation-effect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB3E53D1EC830880032B661;
+			productRefGroup = EDB3E5471EC830880032B661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB3E5451EC830880032B661 /* lineAnimation-effect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB3E5441EC830880032B661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB3E5701EC831570032B661 /* 9.svg in Resources */,
+				EDB3E5731EC831570032B661 /* hangzhou2.svg in Resources */,
+				EDB3E56F1EC831570032B661 /* 8.svg in Resources */,
+				EDB3E56D1EC831570032B661 /* 6.svg in Resources */,
+				EDB3E56C1EC831570032B661 /* 5.svg in Resources */,
+				EDB3E56A1EC831570032B661 /* 3.svg in Resources */,
+				EDB3E5681EC831570032B661 /* 1.svg in Resources */,
+				EDB3E56B1EC831570032B661 /* 4.svg in Resources */,
+				EDB3E5691EC831570032B661 /* 2.svg in Resources */,
+				EDB3E56E1EC831570032B661 /* 7.svg in Resources */,
+				EDB3E5541EC830880032B661 /* LaunchScreen.storyboard in Resources */,
+				EDB3E5711EC831570032B661 /* ball.svg in Resources */,
+				EDB3E5511EC830880032B661 /* Assets.xcassets in Resources */,
+				EDB3E5721EC831570032B661 /* beijing2.svg in Resources */,
+				EDB3E54F1EC830880032B661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C2C82A34233B82B3441478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB6DF377D828F2D73F0BBD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lineAnimation-effect/Pods-lineAnimation-effect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4B64F2A038123A14B0E81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lineAnimation-effect/Pods-lineAnimation-effect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB3E5421EC830880032B661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB3E5791EC838750032B661 /* SVGParse.m in Sources */,
+				EDB3E5751EC831BF0032B661 /* EffectView.swift in Sources */,
+				EDB3E54C1EC830880032B661 /* ViewController.swift in Sources */,
+				EDB3E54A1EC830880032B661 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDB3E54D1EC830880032B661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB3E54E1EC830880032B661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB3E5521EC830880032B661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB3E5531EC830880032B661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB3E5561EC830880032B661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDB3E5571EC830880032B661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB3E5591EC830880032B661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07060F0D44D3E7B1164F562B /* Pods-lineAnimation-effect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RVRG597GCP;
+				INFOPLIST_FILE = "lineAnimation-effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tomorning.lineAnimation-effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lineAnimation-effect/lineAnimation-effect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDB3E55A1EC830880032B661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7A3DE772F1EC69123C3300 /* Pods-lineAnimation-effect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RVRG597GCP;
+				INFOPLIST_FILE = "lineAnimation-effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tomorning.lineAnimation-effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lineAnimation-effect/lineAnimation-effect-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB3E5411EC830880032B661 /* Build configuration list for PBXProject "lineAnimation-effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB3E5561EC830880032B661 /* Debug */,
+				EDB3E5571EC830880032B661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB3E5581EC830880032B661 /* Build configuration list for PBXNativeTarget "lineAnimation-effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB3E5591EC830880032B661 /* Debug */,
+				EDB3E55A1EC830880032B661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB3E53E1EC830880032B661 /* Project object */;
+}
