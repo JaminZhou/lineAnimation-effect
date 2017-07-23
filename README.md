@@ -6,3 +6,10 @@ This is an original version optimized with swift. The original version should be
 
 - Use XML parser from [hpple](https://github.com/topfunky/hpple)
 - Create animations with [pop](https://github.com/facebook/pop)
+
+Other SVG Framework:
+[SVGKit](https://github.com/SVGKit/SVGKit)
+[PocketSVG](https://github.com/pocketsvg/PocketSVG)
+[Macaw](https://github.com/exyte/Macaw)
+[Snowflake](https://github.com/onmyway133/Snowflake)
+you can choose. My solution not the best.
