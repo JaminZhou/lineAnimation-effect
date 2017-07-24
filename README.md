@@ -12,4 +12,5 @@ Other SVG Framework:
 [PocketSVG](https://github.com/pocketsvg/PocketSVG)
 [Macaw](https://github.com/exyte/Macaw)
 [Snowflake](https://github.com/onmyway133/Snowflake)
+[SwiftSVG](https://github.com/mchoe/SwiftSVG)
 you can choose. My solution not the best.
