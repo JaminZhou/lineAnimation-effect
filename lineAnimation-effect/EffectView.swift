@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import hpple
-import pop
 
 class EffectView: UIView {
     
@@ -112,7 +110,7 @@ class EffectView: UIView {
         
         let duration = 2*KDuration+KDelay/2
         let scale = POPBasicAnimation.easeInEaseOut()!
-        scale.property = POPAnimatableProperty.property(withName: kPOPLayerScaleXY) as! POPAnimatableProperty
+        scale.property = POPAnimatableProperty.property(withName: kPOPLayerScaleXY) as? POPAnimatableProperty
         scale.fromValue = CGPoint(x: 0.8, y: 0.8)
         scale.toValue = CGPoint(x: 1.0, y: 1.0)
         scale.duration = duration

@@ -1,5 +1,5 @@
-platform :ios, '8.0'
-use_frameworks!
+platform :ios, '9.0'
+inhibit_all_warnings!
 
 target 'lineAnimation-effect' do
     pod 'pop'

@@ -6,10 +6,15 @@ DEPENDENCIES:
   - hpple
   - pop
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - hpple
+    - pop
+
 SPEC CHECKSUMS:
   hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
 
-PODFILE CHECKSUM: a290a0f8de963e24320bc3ae39696eb4036d3af1
+PODFILE CHECKSUM: af4d9e32241e1caa966826c9c099f7d60de51ee5
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.6.1
